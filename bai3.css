@@ -7,10 +7,26 @@ body {
     height: 800px;
     margin: 0 auto;
 }
-
+span.indam {
+    border-radius: 10px;
+    background-color: #849FFF;
+    color: #fff;
+}
+.Tieude {
+    font-weight: 700;
+    font-size: 29px;
+}
+img#img-tieude {
+    position: relative;
+    left: -89%;
+    width: 22px;
+}
+a{
+    text-decoration: none;
+}
 .container-info {
-    height: 600px;
-    width: 800px;
+    height: 1000px;
+    width: 1161px;
     background-color: #ffffff;
     margin: 0 auto;
     padding: 100px;
@@ -18,9 +34,8 @@ body {
 
 
 img {
-    width: 22px;
-    position: relative;
-    left: -89%;
+        width: 74px;
+        position: relative;
 }
 input#input-find {
     width: 180px;
@@ -38,8 +53,8 @@ input#input-find {
 
 .menu-info {
     display: flex;
-    font-size: 14px;
-    margin-left: 155px;
+    font-size: 28px;
+    margin-left: 225px;
 }
 .tieude1{
     margin: 10px;
@@ -59,3 +74,97 @@ span {
     display: grid;
     width: 100px;
 }
+
+section#project {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10rem 2rem;
+}
+h2.project-secsion-header {
+    font-size: 2.3rem;
+    max-width: 690px;
+    color: #fff;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid #fff;
+}
+.project-gril {
+width: 100%;
+max-width: 1200px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+margin: 0 auto;
+grid-gap: 4rem;
+margin-bottom: 5rem;
+}
+img.project-image {
+width: 100%;
+}
+a.project.project-title {
+    display: flex;
+    border-radius: 10px;
+    background: #ffffff;
+    box-sizing: border-box;
+    width: 90%;
+    border: 2px solid #000;
+    float: left;
+}
+
+p.project-title {
+    display:grid ;
+color: #fff;
+font-size: 1.7rem;
+padding: 2rem 0.5rem;
+}
+.code {
+color: #fff;
+transition: color 0.3s ease-out;
+}
+a.btn-showall {
+color: #fff;
+border-radius: 0.2rem;
+font-size: 1.5rem;
+background: gray;
+padding: 1rem 2rem;
+}
+
+/* day la secction -icon */
+section#contact {
+background-image: linear-gradient( 180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );
+}
+
+.contact-section-header {
+line-height: 1.5;
+color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 80vh;
+justify-content: center;
+
+}
+.contact-section-header>h2
+{
+font-size: 6rem;
+}
+.contact-section-header>p
+{   
+
+font-size: 1.2rem;
+font-style: italic;
+}
+.contact-link {
+margin-top: -15rem;
+display: flex;
+justify-content: center;
+padding-bottom: 300px;
+}
+a.btn-contact-datails {
+color: #fff;
+
+border-radius: 1rem;
+padding: 0rem 2rem 0rem 2rem;
+margin-bottom: 100px;
+font-size: 2rem;
+text-decoration: none;
+}
+
