@@ -1,0 +1,61 @@
+body {
+    background-color: #bfc8e6;
+}
+.container {
+    BACKGROUND-COLOR: #ffffff;
+    width: 1213px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.container-info {
+    height: 600px;
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+
+img {
+    width: 22px;
+    position: relative;
+    left: -89%;
+}
+input#input-find {
+    width: 180px;
+    position: relative;
+    padding: 10px;
+}
+
+.Tieude {
+    height: 38px;
+}
+.header{
+    display: flex;
+}
+
+
+.menu-info {
+    display: flex;
+    font-size: 14px;
+    margin-left: 155px;
+}
+.tieude1{
+    margin: 10px;
+}
+span {
+    padding: 8px;
+    margin-left: 19px;
+}
+
+
+.section {
+    display: grid;
+    height: 644px;
+    background: #ffffff;
+}
+.content {
+    display: grid;
+    width: 100px;
+}
